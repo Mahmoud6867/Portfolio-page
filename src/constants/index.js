@@ -33,6 +33,7 @@ import {
   HotelsReact,
   HotelsAngular,
   TodoList,
+  prayerTimes,
   facebookIcon,
   twitterIcon,
   githubIcon,
@@ -341,6 +342,30 @@ const projects = [
       "https://github.com/Mahmoud6867/Graduation-Project-using-angular.git",
       website_link:
       "https://angular-admin-dashboard.netlify.app/",
+  },
+  {
+    name: "Prayers Time",
+    description:
+      "This is a site that tells the prayers times all over the Arab world",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prayerTimes,
+    source_code_link:
+      "https://github.com/Mahmoud6867/prayersTimes",
+      website_link:
+      "https://prayers-time-in-the-arab-world.netlify.app/",
   },
   {
     name: "TODO List",

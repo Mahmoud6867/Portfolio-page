@@ -266,6 +266,8 @@ const projects = [
     ],
     image: portfolioPage,
     source_code_link: "https://github.com/Mahmoud6867/Portfolio-page.git",
+    website_link:
+    "https://mahmoud-alaa-portfolio.netlify.app/",
   },
   {
     name: "Cloud Services",
@@ -287,7 +289,9 @@ const projects = [
     ],
     image: cloudServices,
     source_code_link:
-      "https://github.com/Mahmoud6867/web-project-using-react-and-tailwind.git",
+      "https://github.com/Mahmoud6867/React.js-project-using-tailwind",
+    website_link:
+      "https://template-for-a-cloud-service.netlify.app/",
   },
   {
     name: "Hotels.com mimic",
@@ -310,6 +314,8 @@ const projects = [
     image: HotelsReact,
     source_code_link:
       "https://github.com/Mahmoud6867/Graduation-Project-using-react.js.git",
+      website_link:
+      "https://mahmoud-alaa-portfolio.netlify.app/",
   },
   {
     name: "Admin dashboard of the Hotels.com mimic",
@@ -332,6 +338,8 @@ const projects = [
     image: HotelsAngular,
     source_code_link:
       "https://github.com/Mahmoud6867/Graduation-Project-using-angular.git",
+      website_link:
+      "https://mahmoud-alaa-portfolio.netlify.app/",
   },
   // {
   //   name: "Car Rent",

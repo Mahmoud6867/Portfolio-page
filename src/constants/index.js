@@ -32,6 +32,7 @@ import {
   cloudServices,
   HotelsReact,
   HotelsAngular,
+  TodoList,
   facebookIcon,
   twitterIcon,
   githubIcon,
@@ -315,7 +316,7 @@ const projects = [
     source_code_link:
       "https://github.com/Mahmoud6867/Graduation-Project-using-react.js.git",
       website_link:
-      "https://mahmoud-alaa-portfolio.netlify.app/",
+      "https://mockup-site-for-hotels.netlify.app/",
   },
   {
     name: "Admin dashboard of the Hotels.com mimic",
@@ -339,7 +340,31 @@ const projects = [
     source_code_link:
       "https://github.com/Mahmoud6867/Graduation-Project-using-angular.git",
       website_link:
-      "https://mahmoud-alaa-portfolio.netlify.app/",
+      "https://angular-admin-dashboard.netlify.app/",
+  },
+  {
+    name: "TODO List",
+    description:
+      "This is a simple todo list used to track your tasks",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: TodoList,
+    source_code_link:
+      "https://github.com/Mahmoud6867/ToDoList",
+      website_link:
+      "https://todolistbymahmoud.netlify.app/",
   },
   // {
   //   name: "Car Rent",

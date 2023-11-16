@@ -43,6 +43,7 @@ import HotelsAngular from './projects/HotelsAngular.png'
 import TodoList from './projects/TodoList.png'
 import prayerTimes from './projects/prayerTimes.png'
 import TravelApp from './projects/TravelApp.png'
+import firoz from './projects/firoz.png'
 
 import facebookIcon from "./icons/facebookIcon.png"
 import twitterIcon from "./icons/twitterIcon.png"
@@ -96,4 +97,5 @@ export {
   githubIcon,
   linkedinIcon,
   nextjs,
+  firoz,
 };

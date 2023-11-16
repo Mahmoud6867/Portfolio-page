@@ -40,6 +40,7 @@ import {
   githubIcon,
   linkedinIcon,
   nextjs,
+  firoz,
 } from "../assets";
 
 export const navLinks = [
@@ -363,6 +364,30 @@ const projects = [
       "https://github.com/Mahmoud6867/Travel-App",
       website_link:
       "https://travel-app-by-mahmoud.netlify.app/",
+  },
+  {
+    name: "Firoz",
+    description:
+      "This is a responsive design which is a mockup of a website called firoz",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: firoz,
+    source_code_link:
+      "https://github.com/Mahmoud6867/firoz-mockup-project",
+      website_link:
+      "https://firoz-mockup.netlify.app/",
   },
 
 ];

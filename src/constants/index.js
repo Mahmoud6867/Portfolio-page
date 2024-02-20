@@ -30,6 +30,7 @@ import {
   nextjs,
   firoz,
   rayagate,
+  animeVault,
 } from "../assets";
 
 export const navLinks = [
@@ -390,6 +391,30 @@ const projects = [
       "https://github.com/Mahmoud6867/firoz-mockup-project",
       website_link:
       "https://firoz-mockup.netlify.app/",
+  },
+  {
+    name: "Anime Vault",
+    description:
+      "This is a project that I made to learn server side rendering the owner of this project is JSmastery youtube channel",
+    tags: [
+      {
+        name: "Next.ts",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: animeVault,
+    source_code_link:
+      "https://github.com/Mahmoud6867/Anime-Vault",
+      website_link:
+      "https://main--anime-vault-mahmoud.netlify.app/",
   },
 
 ];

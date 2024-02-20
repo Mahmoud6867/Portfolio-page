@@ -45,6 +45,7 @@ import TodoList from './projects/TodoList.png'
 import prayerTimes from './projects/prayerTimes.png'
 import TravelApp from './projects/TravelApp.png'
 import firoz from './projects/firoz.png'
+import animeVault from './projects/anime-vault.png'
 
 import facebookIcon from "./icons/facebookIcon.png"
 import twitterIcon from "./icons/twitterIcon.png"
@@ -100,4 +101,5 @@ export {
   nextjs,
   firoz,
   rayagate,
+  animeVault,
 };

@@ -31,6 +31,7 @@ import {
   firoz,
   rayagate,
   animeVault,
+  library,
 } from "../assets";
 
 export const navLinks = [
@@ -415,6 +416,30 @@ const projects = [
       "https://github.com/Mahmoud6867/Anime-Vault",
       website_link:
       "https://main--anime-vault-mahmoud.netlify.app/",
+  },
+  {
+    name: "Library",
+    description:
+      "This is a project that I made with next.js using server side rendering the code and designs are all mine",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: library,
+    source_code_link:
+      "https://github.com/Mahmoud6867/Xapprika-task",
+      website_link:
+      "https://mahmoud-library.netlify.app/",
   },
 
 ];

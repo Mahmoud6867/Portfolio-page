@@ -46,6 +46,7 @@ import prayerTimes from './projects/prayerTimes.png'
 import TravelApp from './projects/TravelApp.png'
 import firoz from './projects/firoz.png'
 import animeVault from './projects/anime-vault.png'
+import library from './projects/library.png'
 
 import facebookIcon from "./icons/facebookIcon.png"
 import twitterIcon from "./icons/twitterIcon.png"
@@ -102,4 +103,5 @@ export {
   firoz,
   rayagate,
   animeVault,
+  library,
 };

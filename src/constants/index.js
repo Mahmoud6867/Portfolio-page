@@ -32,6 +32,8 @@ import {
   rayagate,
   animeVault,
   library,
+  whatsappIcon,
+  telegramIcon,
 } from "../assets";
 
 export const navLinks = [
@@ -87,6 +89,16 @@ const icons = [
     title: "Github",
     icon: githubIcon,
     link: 'https://github.com/Mahmoud6867',
+  },
+  {
+    title: "Whatsapp",
+    icon: whatsappIcon,
+    link: 'https://Wa.me/201065106930',
+  },
+  {
+    title: "Telegram",
+    icon: telegramIcon,
+    link: 'https://t.me/mahmoud6867',
   },
 ];
 

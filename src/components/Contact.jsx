@@ -78,7 +78,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mt-20 flex flex-wrap gap-10">
+    <div className="mt-20 flex justify-center flex-wrap gap-10">
       
       {icons.map((icon, index) => (
         <ContactCards key={icon.title} index={index} {...icon} />

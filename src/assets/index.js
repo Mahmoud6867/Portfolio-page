@@ -52,6 +52,8 @@ import facebookIcon from "./icons/facebookIcon.png"
 import twitterIcon from "./icons/twitterIcon.png"
 import githubIcon from "./icons/githubIcon.png"
 import linkedinIcon from "./icons/linkedinIcon.png"
+import whatsappIcon from "./icons/whatsapp.png"
+import telegramIcon from "./icons/telegram.png"
 
 export {
   logo,
@@ -99,6 +101,8 @@ export {
   twitterIcon,
   githubIcon,
   linkedinIcon,
+  whatsappIcon,
+  telegramIcon,
   nextjs,
   firoz,
   rayagate,

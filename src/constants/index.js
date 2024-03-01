@@ -34,6 +34,7 @@ import {
   library,
   whatsappIcon,
   telegramIcon,
+  weatherApp,
 } from "../assets";
 
 export const navLinks = [
@@ -452,6 +453,30 @@ const projects = [
       "https://github.com/Mahmoud6867/Xapprika-task",
       website_link:
       "https://mahmoud-library.netlify.app/",
+  },
+  {
+    name: "Weather App",
+    description:
+      "This is an app I made using next.js to display weather from open weather api",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weatherApp,
+    source_code_link:
+      "https://github.com/Mahmoud6867/Weather-app",
+      website_link:
+      "https://mahmoud-weather-app.netlify.app/",
   },
 
 ];

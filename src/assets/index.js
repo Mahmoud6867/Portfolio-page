@@ -47,13 +47,14 @@ import TravelApp from './projects/TravelApp.png'
 import firoz from './projects/firoz.png'
 import animeVault from './projects/anime-vault.png'
 import library from './projects/library.png'
+import weatherApp from './projects/weatherApp.png'
 
 import facebookIcon from "./icons/facebookIcon.png"
 import twitterIcon from "./icons/twitterIcon.png"
 import githubIcon from "./icons/githubIcon.png"
 import linkedinIcon from "./icons/linkedinIcon.png"
-import whatsappIcon from "./icons/whatsapp.png"
-import telegramIcon from "./icons/telegram.png"
+import whatsappIcon from "./icons/whatsappIcon.png"
+import telegramIcon from "./icons/telegramIcon.png"
 
 export {
   logo,
@@ -108,4 +109,5 @@ export {
   rayagate,
   animeVault,
   library,
+  weatherApp,
 };

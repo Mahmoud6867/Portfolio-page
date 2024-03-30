@@ -48,6 +48,9 @@ import firoz from './projects/firoz.png'
 import animeVault from './projects/anime-vault.png'
 import library from './projects/library.png'
 import weatherApp from './projects/weatherApp.png'
+import dashboard from './projects/Dashboard.png'
+import login from './projects/LoginPage.png'
+
 
 import facebookIcon from "./icons/facebookIcon.png"
 import twitterIcon from "./icons/twitterIcon.png"
@@ -110,4 +113,6 @@ export {
   animeVault,
   library,
   weatherApp,
+  login,
+  dashboard,
 };

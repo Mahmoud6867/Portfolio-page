@@ -35,6 +35,8 @@ import {
   whatsappIcon,
   telegramIcon,
   weatherApp,
+  login,
+  dashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -477,6 +479,46 @@ const projects = [
       "https://github.com/Mahmoud6867/Weather-app",
       website_link:
       "https://mahmoud-weather-app.netlify.app/",
+  },
+  {
+    name: "Login Page",
+    description:
+      "This is a static page that I made to demonstrate part of my css skills",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: login,
+    source_code_link:
+      "https://github.com/Mahmoud6867/simple-login-page",
+      website_link:
+      "https://login-page-sample-mahmoud.netlify.app/",
+  },
+  {
+    name: "Dashboard",
+    description:
+      "This is a static page that I made to demonstrate part of my css skills",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link:
+      "https://github.com/Mahmoud6867/Dashboard-dummy",
+      website_link:
+      "https://mahmoud-dashboard-test.netlify.app/",
   },
 
 ];

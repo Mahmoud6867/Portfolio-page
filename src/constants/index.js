@@ -37,6 +37,7 @@ import {
   weatherApp,
   login,
   dashboard,
+  appleClone,
 } from "../assets";
 
 export const navLinks = [
@@ -519,6 +520,34 @@ const projects = [
       "https://github.com/Mahmoud6867/Dashboard-dummy",
       website_link:
       "https://mahmoud-dashboard-test.netlify.app/",
+  },
+  {
+    name: "Apple Website",
+    description:
+      "This is a clone for the apple website that uses 3D animations to display the iPhones",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP Animation",
+        color: "green-text-gradient",
+      },
+    ],
+    image: appleClone,
+    source_code_link:
+      "https://github.com/Mahmoud6867/Apple-clone-page",
+      website_link:
+      "https://apple-clone-page.netlify.app/",
   },
 
 ];

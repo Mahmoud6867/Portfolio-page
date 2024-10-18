@@ -19,6 +19,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import material from "./tech/material.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
@@ -26,6 +27,8 @@ import angular from "./tech/angular.png";
 import github1 from "./tech/github1.png";
 import firebase from "./tech/firebase.png";
 import nextjs from "./tech/nextjs.png";
+import gsap from "./tech/gsap.png";
+import framer from "./tech/framer.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -81,6 +84,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  material,
   typescript,
   threejs,
   meta,
@@ -117,4 +121,6 @@ export {
   login,
   dashboard,
   appleClone,
+  gsap,
+  framer,
 };

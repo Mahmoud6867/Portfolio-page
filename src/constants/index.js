@@ -38,6 +38,11 @@ import {
   login,
   dashboard,
   appleClone,
+  nodejs,
+  redux,
+  material,
+  gsap,
+  framer,
 } from "../assets";
 
 export const navLinks = [
@@ -132,6 +137,10 @@ const technologies = [
     icon: bootstrap,
   },
   {
+    name: "Material UI",
+    icon: material,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -140,8 +149,8 @@ const technologies = [
     icon: nextjs,
   },
   {
-    name: "angular",
-    icon: angular,
+    name: "Redux",
+    icon: redux,
   },
   {
     name: "firebase",
@@ -152,12 +161,24 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "GSAP Animations",
+    icon: gsap,
+  },
+  {
+    name: "Framer Animations",
+    icon: framer,
   },
 ];
 

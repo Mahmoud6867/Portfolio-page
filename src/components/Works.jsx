@@ -17,95 +17,31 @@ function generateRandomHexColor() {
 }
 
 // This function gets the projects from firebase
-// const ProjectCard = ({
-//   index,
-//   name,
-//   description,
-//   technologies,
-//   repo,
-//   link,
-//   img,
-// }) => {
-//   return (
-//     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-//       <Tilt
-//         options={{ max: 45, scale: 1, speed: 450 }}
-//         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-//       >
-//         <div className="relative w-full h-[230px]">
-//           <img
-//             src={img}
-//             alt={name}
-//             className=" w-full h-full object-cover rounded-2xl"
-//           />
-//           <div className="absolute  inset-0 flex justify-between m-3 card-img_hover">
-//             <div
-//               onClick={() => window.open(link, "_blank")}
-//               className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-in-out hover:scale-150 hover:bg-violet-900"
-//             >
-//               <img
-//                 src={globe}
-//                 alt="GitHub"
-//                 className="w-5/6 h-5/6 object-contain"
-//               />
-//             </div>
-//             <div
-//               onClick={() => window.open(repo, "_blank")}
-//               className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-in-out hover:scale-150 hover:bg-violet-900"
-//             >
-//               <img
-//                 src={github}
-//                 alt="GitHub"
-//                 className="w-5/6 h-5/6 object-contain"
-//               />
-//             </div>
-//           </div>
-//         </div>
-//         <div className="mt-5">
-//           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-//           <p className="mt-2 text-secondary text-[14px]">{description}</p>
-//         </div>
-//         <div className="mt-4 flex flex-wrap gap-2">
-//           {technologies.map((tech) => (
-//             <p
-//               key={tech}
-//               style={{ color: generateRandomHexColor() }}
-//               className={`text-[14px]`}
-//             >
-//               #{tech}
-//             </p>
-//           ))}
-//         </div>
-//       </Tilt>
-//     </motion.div>
-//   );
-// };
 
-// This function gets the projects from the assets
 const ProjectCard = ({
   index,
   name,
   description,
-  tags,
-  image,
-  source_code_link,
-  website_link,
+  technologies,
+  repo,
+  link,
+  img,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.1, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
-            src={image}
+            src={img}
             alt={name}
             className=" w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute  inset-0 flex justify-between m-3 card-img_hover">
             <div
-              onClick={() => window.open(website_link, "_blank")}
+              onClick={() => window.open(link, "_blank")}
               className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-in-out hover:scale-150 hover:bg-violet-900"
             >
               <img
@@ -115,7 +51,7 @@ const ProjectCard = ({
               />
             </div>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(repo, "_blank")}
               className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-in-out hover:scale-150 hover:bg-violet-900"
             >
               <img
@@ -131,13 +67,13 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
+          {technologies.map((tech) => (
             <p
-              key={tag.name}
+              key={tech}
               style={{ color: generateRandomHexColor() }}
               className={`text-[14px]`}
             >
-              #{tag.name}
+              #{tech}
             </p>
           ))}
         </div>
@@ -146,23 +82,91 @@ const ProjectCard = ({
   );
 };
 
+
+
+
+// This function gets the projects from the assets
+
+// const ProjectCard = ({
+//   index,
+//   name,
+//   description,
+//   tags,
+//   image,
+//   source_code_link,
+//   website_link,
+// }) => {
+//   return (
+//     <motion.div variants={fadeIn("up", "spring", index * 0.1, 0.75)}>
+//       <Tilt
+//         options={{ max: 45, scale: 1, speed: 450 }}
+//         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+//       >
+//         <div className="relative w-full h-[230px]">
+//           <img
+//             src={image}
+//             alt={name}
+//             className=" w-full h-full object-cover rounded-2xl"
+//           />
+//           <div className="absolute  inset-0 flex justify-between m-3 card-img_hover">
+//             <div
+//               onClick={() => window.open(website_link, "_blank")}
+//               className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-in-out hover:scale-150 hover:bg-violet-900"
+//             >
+//               <img
+//                 src={globe}
+//                 alt="GitHub"
+//                 className="w-5/6 h-5/6 object-contain"
+//               />
+//             </div>
+//             <div
+//               onClick={() => window.open(source_code_link, "_blank")}
+//               className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-in-out hover:scale-150 hover:bg-violet-900"
+//             >
+//               <img
+//                 src={github}
+//                 alt="GitHub"
+//                 className="w-5/6 h-5/6 object-contain"
+//               />
+//             </div>
+//           </div>
+//         </div>
+//         <div className="mt-5">
+//           <h3 className="text-white font-bold text-[24px]">{name}</h3>
+//           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+//         </div>
+//         <div className="mt-4 flex flex-wrap gap-2">
+//           {tags.map((tag) => (
+//             <p
+//               key={tag.name}
+//               style={{ color: generateRandomHexColor() }}
+//               className={`text-[14px]`}
+//             >
+//               #{tag.name}
+//             </p>
+//           ))}
+//         </div>
+//       </Tilt>
+//     </motion.div>
+//   );
+// };
+
 const Works = () => {
 
   {/* This function gets the projects from firebase */}
-  // for 
-  // const [project, setProject] = useState([]);
+  const [project, setProject] = useState([]);
 
-  // const usersCollection = collection(db, "projects");
+  const usersCollection = collection(db, "projects");
 
-  // useEffect(() => {
-  //   const getUsers = async () => {
-  //     const data = await getDocs(usersCollection);
-  //     setProject(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-  //     console.log(data.docs);
-  //   };
+  useEffect(() => {
+    const getUsers = async () => {
+      const data = await getDocs(usersCollection);
+      setProject(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+      console.log(data.docs);
+    };
 
-  //   getUsers();
-  // }, []);
+    getUsers();
+  }, []);
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -182,15 +186,20 @@ const Works = () => {
         </motion.p>
       </div>
       <div className="mt-20 flex justify-center flex-wrap gap-7">
+
+
         {/* This function gets the projects from firebase */}
-        {/* {project.map((pr, index) => (
+
+        {project.map((pr, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...pr} />
-        ))} */}
+        ))}
+
 
         {/* This function gets the projects from the assets */}
-        {projects.map((project, index) => (
+
+        {/* {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+        ))} */}
       </div>
     </>
   );

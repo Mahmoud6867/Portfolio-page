@@ -97,7 +97,7 @@ const ProjectCard = ({
   website_link,
 }) => {
   return (
-    <div >
+    <div>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -170,10 +170,10 @@ const Works = () => {
   // }, []);
   return (
     <div>
-      <motion.div variants={textVariant(0)}>
+      <div>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
-      </motion.div>
+      </div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}

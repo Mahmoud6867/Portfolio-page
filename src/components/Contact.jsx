@@ -83,10 +83,10 @@ const Contact = () => {
       {icons.map((icon, index) => (
         <ContactCards key={icon.title} index={index} {...icon} />
       ))}
-      <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10">
+      <div className="flex xl:mt-12 xl:flex-row flex-col-reverse gap-10">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+          // className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         >
           <p className={styles.sectionSubText}>Or get in touch via email</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -148,6 +148,7 @@ const Contact = () => {
               {loading ? "Sending..." : "Send"}
             </button>
           </form>
+
         </motion.div>
         {/*  */}
 

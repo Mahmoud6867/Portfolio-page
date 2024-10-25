@@ -17,7 +17,7 @@ import { icons } from "../constants";
 const ContactCards = ({ index, title, icon, link }) => {
   return (
     <a href={`${link}`} target="_blank" rel="noreferrer">
-      <Tilt className="xs:w-[250px] w-full">
+      <Tilt className="xs:w-[250px] w-[100px]">
         <motion.div
           variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
           className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -25,9 +25,9 @@ const ContactCards = ({ index, title, icon, link }) => {
           <div
             // eslint-disable-next-line react/no-unknown-property
             options={{ max: 45, scale: 1, speed: 450 }}
-            className=" bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+            className=" bg-tertiary rounded-[20px]  py-2 xs:py-5 px-2 xs:px-12 min-h-[100px] xs:min-h-[250px] flex justify-evenly items-center flex-col"
           >
-            <img src={icon} alt={title} className="w-40 h-40 object-contain" />
+            <img src={icon} alt={title} className="w-full h-full object-contain" />
           </div>
         </motion.div>
       </Tilt>

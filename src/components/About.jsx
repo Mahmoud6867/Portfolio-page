@@ -45,7 +45,7 @@ const About = () => {
         scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-center gap-5">
         {services.map((service, index) => (
           <ServicedCard key={service.title} index={index} {...service} />
         ))}

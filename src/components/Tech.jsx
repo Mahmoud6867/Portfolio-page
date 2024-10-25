@@ -16,7 +16,7 @@ const Tech = () => {
           {/* <BallCanvas icon={technology.icon}/> */}
 
 
-          <Tilt className="xs:w-[250px] w-[90px]">
+          <Tilt className="xs:w-[250px] w-[80px]">
             <motion.div
               variants={fadeIn("right", "spring", 0.1 * i, 0.75)}
               className="w-full green-pink-gradient p-[1px] rounded-full shadow-card"
@@ -30,7 +30,7 @@ const Tech = () => {
                   alt={technology.name}
                   className="w-10 h-10 sm:w-16 sm:h-16 object-contain"
                 />
-                <h3 className="text-white text-[14px] sm:text-[20px] font-bold text-center">
+                <h3 className="text-white text-[12px] sm:text-[20px] font-bold text-center">
                   {technology.name}
                 </h3>
               </div>

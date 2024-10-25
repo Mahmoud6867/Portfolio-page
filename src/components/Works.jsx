@@ -97,7 +97,7 @@ const ProjectCard = ({
     <div>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-[170px] h-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-[160px] h-full"
       >
         <div className="relative w-full h-[150px] sm:h-[230px]">
           <img
@@ -181,7 +181,7 @@ const Works = () => {
           and manage projects effectively.
         </p>
       </div>
-      <div className="mt-20 flex justify-center flex-wrap gap-7">
+      <div className="mt-20 flex justify-center flex-wrap gap-5">
         {/* This function gets the projects from firebase */}
 
         {/* {project.map((pr, index) => (

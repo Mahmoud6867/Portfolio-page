@@ -16,7 +16,7 @@ const Tech = () => {
           {/* <BallCanvas icon={technology.icon}/> */}
 
 
-          <Tilt className="xs:w-[250px] w-[100px]">
+          <Tilt className="xs:w-[250px] w-[90px]">
             <motion.div
               variants={fadeIn("right", "spring", 0.1 * i, 0.75)}
               className="w-full green-pink-gradient p-[1px] rounded-full shadow-card"

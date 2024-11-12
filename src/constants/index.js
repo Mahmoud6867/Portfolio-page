@@ -43,6 +43,7 @@ import {
   material,
   gsap,
   framer,
+  zahrNature,
 } from "../assets";
 
 export const navLinks = [
@@ -82,32 +83,32 @@ const icons = [
   {
     title: "Facebook",
     icon: facebookIcon,
-    link: 'https://web.facebook.com/mahmoud.alaa.123829',
+    link: "https://web.facebook.com/mahmoud.alaa.123829",
   },
   {
     title: "Twitter",
     icon: twitterIcon,
-    link: 'https://twitter.com/MahmoudAladdin9',
+    link: "https://twitter.com/MahmoudAladdin9",
   },
   {
     title: "Linkedin",
     icon: linkedinIcon,
-    link: 'https://www.linkedin.com/in/mahmoud-alaa-eldeen-14baa0245/',
+    link: "https://www.linkedin.com/in/mahmoud-alaa-eldeen-14baa0245/",
   },
   {
     title: "Github",
     icon: githubIcon,
-    link: 'https://github.com/Mahmoud6867',
+    link: "https://github.com/Mahmoud6867",
   },
   {
     title: "Whatsapp",
     icon: whatsappIcon,
-    link: 'https://Wa.me/201065106930',
+    link: "https://Wa.me/201065106930",
   },
   {
     title: "Telegram",
     icon: telegramIcon,
-    link: 'https://t.me/mahmoud6867',
+    link: "https://t.me/mahmoud6867",
   },
 ];
 
@@ -259,8 +260,7 @@ const projects = [
     ],
     image: portfolioPage,
     source_code_link: "https://github.com/Mahmoud6867/Portfolio-page.git",
-    website_link:
-    "https://mahmoud-alaa-portfolio.netlify.app/",
+    website_link: "https://mahmoud-alaa-portfolio.netlify.app/",
   },
   {
     name: "Cloud Services",
@@ -283,8 +283,7 @@ const projects = [
     image: cloudServices,
     source_code_link:
       "https://github.com/Mahmoud6867/React.js-project-using-tailwind",
-    website_link:
-      "https://template-for-a-cloud-service.netlify.app/",
+    website_link: "https://template-for-a-cloud-service.netlify.app/",
   },
   {
     name: "Hotels.com mimic",
@@ -307,8 +306,7 @@ const projects = [
     image: HotelsReact,
     source_code_link:
       "https://github.com/Mahmoud6867/Graduation-Project-using-react.js.git",
-      website_link:
-      "https://mockup-site-for-hotels.netlify.app/",
+    website_link: "https://mockup-site-for-hotels.netlify.app/",
   },
   {
     name: "Admin dashboard of the Hotels.com mimic",
@@ -331,8 +329,7 @@ const projects = [
     image: HotelsAngular,
     source_code_link:
       "https://github.com/Mahmoud6867/Graduation-Project-using-angular.git",
-      website_link:
-      "https://angular-admin-dashboard.netlify.app/",
+    website_link: "https://angular-admin-dashboard.netlify.app/",
   },
   {
     name: "Prayers Time",
@@ -353,15 +350,12 @@ const projects = [
       },
     ],
     image: prayerTimes,
-    source_code_link:
-      "https://github.com/Mahmoud6867/prayersTimes",
-      website_link:
-      "https://prayers-time-in-the-arab-world.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/prayersTimes",
+    website_link: "https://prayers-time-in-the-arab-world.netlify.app/",
   },
   {
     name: "TODO List",
-    description:
-      "This is a simple todo list used to track your tasks",
+    description: "This is a simple todo list used to track your tasks",
     tags: [
       {
         name: "React.js",
@@ -377,10 +371,8 @@ const projects = [
       },
     ],
     image: TodoList,
-    source_code_link:
-      "https://github.com/Mahmoud6867/ToDoList",
-      website_link:
-      "https://todolistbymahmoud.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/ToDoList",
+    website_link: "https://todolistbymahmoud.netlify.app/",
   },
   {
     name: "Travel App",
@@ -401,10 +393,8 @@ const projects = [
       },
     ],
     image: TravelApp,
-    source_code_link:
-      "https://github.com/Mahmoud6867/Travel-App",
-      website_link:
-      "https://travel-app-by-mahmoud.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/Travel-App",
+    website_link: "https://travel-app-by-mahmoud.netlify.app/",
   },
   {
     name: "Firoz",
@@ -425,10 +415,8 @@ const projects = [
       },
     ],
     image: firoz,
-    source_code_link:
-      "https://github.com/Mahmoud6867/firoz-mockup-project",
-      website_link:
-      "https://firoz-mockup.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/firoz-mockup-project",
+    website_link: "https://firoz-mockup.netlify.app/",
   },
   {
     name: "Anime Vault",
@@ -449,10 +437,8 @@ const projects = [
       },
     ],
     image: animeVault,
-    source_code_link:
-      "https://github.com/Mahmoud6867/Anime-Vault",
-      website_link:
-      "https://main--anime-vault-mahmoud.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/Anime-Vault",
+    website_link: "https://main--anime-vault-mahmoud.netlify.app/",
   },
   {
     name: "Library",
@@ -473,10 +459,8 @@ const projects = [
       },
     ],
     image: library,
-    source_code_link:
-      "https://github.com/Mahmoud6867/Xapprika-task",
-      website_link:
-      "https://mahmoud-library.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/Xapprika-task",
+    website_link: "https://mahmoud-library.netlify.app/",
   },
   {
     name: "Weather App",
@@ -497,10 +481,8 @@ const projects = [
       },
     ],
     image: weatherApp,
-    source_code_link:
-      "https://github.com/Mahmoud6867/Weather-app",
-      website_link:
-      "https://mahmoud-weather-app.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/Weather-app",
+    website_link: "https://mahmoud-weather-app.netlify.app/",
   },
   {
     name: "Login Page",
@@ -517,10 +499,8 @@ const projects = [
       },
     ],
     image: login,
-    source_code_link:
-      "https://github.com/Mahmoud6867/simple-login-page",
-      website_link:
-      "https://login-page-sample-mahmoud.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/simple-login-page",
+    website_link: "https://login-page-sample-mahmoud.netlify.app/",
   },
   {
     name: "Dashboard",
@@ -537,10 +517,8 @@ const projects = [
       },
     ],
     image: dashboard,
-    source_code_link:
-      "https://github.com/Mahmoud6867/Dashboard-dummy",
-      website_link:
-      "https://mahmoud-dashboard-test.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/Dashboard-dummy",
+    website_link: "https://mahmoud-dashboard-test.netlify.app/",
   },
   {
     name: "Apple Website",
@@ -565,14 +543,35 @@ const projects = [
       },
     ],
     image: appleClone,
-    source_code_link:
-      "https://github.com/Mahmoud6867/Apple-clone-page",
-      website_link:
-      "https://apple-clone-page.netlify.app/",
+    source_code_link: "https://github.com/Mahmoud6867/Apple-clone-page",
+    website_link: "https://apple-clone-page.netlify.app/",
   },
-
+  {
+    name: "Zahr Nature Website",
+    description:
+      "This is a freelance project I did on my own for a client that wanted to make a website for a company that sells nature products. I designed the website and coded it using Next.js, TailwindCSS and GSAP. I also made sure that it is responsive on all devices",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GSAP Animation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Web 3 Forms",
+        color: "green-text-gradient",
+      },
+    ],
+    image: zahrNature,
+    source_code_link: "#",
+    website_link: "https://zahraltabeia.netlify.app/",
+  },
 ];
-
-
 
 export { services, technologies, experiences, testimonials, projects, icons };

@@ -54,6 +54,7 @@ import weatherApp from './projects/weatherApp.png'
 import dashboard from './projects/Dashboard.png'
 import login from './projects/LoginPage.png'
 import appleClone from './projects/appleClone.png'
+import zahrNature from './projects/zahrNature.png'
 
 
 import facebookIcon from "./icons/facebookIcon.png"
@@ -123,4 +124,5 @@ export {
   appleClone,
   gsap,
   framer,
+  zahrNature,
 };

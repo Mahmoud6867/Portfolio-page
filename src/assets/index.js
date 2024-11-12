@@ -36,6 +36,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import iti from "./company/iti.png";
 import rayagate from "./company/rayagate.jpeg";
+import astrotechSol from "./company/astrotechSol.png";
+import upwork from "./company/upwork.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -116,6 +118,8 @@ export {
   nextjs,
   firoz,
   rayagate,
+  astrotechSol,
+  upwork,
   animeVault,
   library,
   weatherApp,

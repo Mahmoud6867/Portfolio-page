@@ -44,6 +44,8 @@ import {
   gsap,
   framer,
   zahrNature,
+  astrotechSol,
+  upwork,
 } from "../assets";
 
 export const navLinks = [
@@ -208,6 +210,31 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Front-End & Cross Platform Web Designer & Developer",
+    company_name: "AstrotechSol",
+    icon: astrotechSol,
+    iconBg: "#383E56",
+    date: "june 2024 ",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Front-End & Cross Platform Web Designer & Developer",
+    company_name: "Freelancer",
+    icon: upwork,
+    iconBg: "#383E56",
+    date: "october 2024",
+    points: [
+      "Developing and design web applications using next.js and other related technologies.",
+      "Collaborating with clients to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
 ];
